@@ -19,6 +19,11 @@ body{
   border-radius: 2;
   position: fixed;
 }
+
+.por a{
+  /* background: white; */
+  color: #ffffff;
+}
 .por button{
   padding: 8px 14px;
   background-color: orangered;
@@ -56,6 +61,20 @@ body{
 }
 .get h5{
   color: orangered;
+}
+
+.get a{
+  color: white;
+  text-decoration: none;
+  /* gap: 20px; */
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.get img{
+  /* background: #ffffff; */
+  gap: 15px;
 }
 .container button {
     width: 100%;
