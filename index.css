@@ -1,3 +1,10 @@
+html, body{
+  /* overflow: hidden; */
+  /* object-fit: cover; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -22,7 +29,12 @@ body{
 
 .por a{
   /* background: white; */
+  text-decoration: none;
   color: #ffffff;
+}
+
+.por a:hover{
+  color: orangered;
 }
 .por button{
   padding: 8px 14px;
@@ -115,6 +127,9 @@ body{
 display: flex;
 flex-direction: row;
 justify-content: center;
+/* align-items: center; */
+margin-left: 300px;
+margin-top: 100px;
 gap: 50px;
 width: 600px; 
 height: 400px;
@@ -184,7 +199,7 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
 }
 .sna{
   display: inline-block;
-  padding-top: 40px;
+  /* padding-top: 10px; */
   border-radius: 8px;
   border: 2px solid orangered;
   overflow: hidden;
@@ -303,7 +318,7 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
   border-radius: 6px;
   font-size: small;
   padding: 8px 10px;
-  
+  margin-left: 46%;
 }
 .sel h4{
   display: flex;
