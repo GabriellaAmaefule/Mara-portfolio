@@ -227,6 +227,7 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
+ 
 }
 .gab p{
   color: rgb(248, 233, 233);
@@ -234,6 +235,14 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
 .vie{
   background-color: orangered;
   color: white;
+ 
+}
+.gab a{
+  text-decoration: none;
+  color: white;
+}
+.lio a{
+  color: black;
 }
 .sig{
   display: flex;
@@ -342,6 +351,12 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
 .exp{
   color: white;
 }
+.exp a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+}
 .qqq{
   color: white;
 }
@@ -353,7 +368,9 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
   flex-direction: row;
   justify-content: center;
   gap: 200px;
-  padding-top: 50px;
+  /* padding-top: 90px; */
+  margin-top: 50px;
+  border-top: 4px solid orangered;
   /* border:1px solid orangered ; */
   border-radius: 10px;
  
