@@ -34,7 +34,7 @@ body{
 }
 
 .por a:hover{
-  color: orangered;
+  color: white;
 }
 .por button{
   padding: 8px 14px;
@@ -161,6 +161,7 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
   justify-content: center;
 }
 .ui{
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 background-color: black;
 color: white;
 border: 5px;
@@ -339,6 +340,61 @@ box-shadow: 0 4px 10px rgba(251, 241, 241, 0.2);
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.wor{
+  border: none;
+  border: 2px solid orangered;
+  border-radius: 6px;
+  height: 490px;
+  width: 450px;
+  margin-left: 30%;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.wor p{
+  color: white;
+  margin-left: 10px;
+}
+.wor img{
+  padding-bottom: 20px;
+  display: block;
+  border-radius: 10px;
+  width: 500px;
+  height: 220px;
+  object-fit: cover;
+   /* border: 2px solid orangered; */
+}
+.wor h6{
+  color: orangered;
+  margin-left: 10px;
+}
+.wor button{
+  padding-bottom: 10px;
+  padding: 10px 20px;
+  border: 1px solid orangered;
+  gap: 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+  color: white;
+  background-color: transparent;
+}
+.wor button hover{
+  color: orangered;
+}
+.ech{
+  color: orangered;
+  border-radius: 20px;
+}
+.ase button{
+  padding-bottom: 10px;
+  padding: 10px 20px;
+  gap: 10px;
+  margin-left: 10px;
+  color: white;
+  
+}
+.ase :hover{
+  color: orangered;
 }
 .mar{
   color: orangered;
